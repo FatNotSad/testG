@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18434CF620D8FD26003DE100 /* Test01.m in Sources */ = {isa = PBXBuildFile; fileRef = 18434CF520D8FD26003DE100 /* Test01.m */; };
 		18B134E41D30B46200414338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B134E31D30B46200414338 /* main.m */; };
 		18B134E71D30B46200414338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B134E61D30B46200414338 /* AppDelegate.m */; };
 		18B134EA1D30B46200414338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B134E91D30B46200414338 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18434CF420D8FD26003DE100 /* Test01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test01.h; sourceTree = "<group>"; };
+		18434CF520D8FD26003DE100 /* Test01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test01.m; sourceTree = "<group>"; };
 		18B134DF1D30B46200414338 /* testG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B134E31D30B46200414338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18B134E51D30B46200414338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 				18B134E61D30B46200414338 /* AppDelegate.m */,
 				18B134E81D30B46200414338 /* ViewController.h */,
 				18B134E91D30B46200414338 /* ViewController.m */,
+				18434CF420D8FD26003DE100 /* Test01.h */,
+				18434CF520D8FD26003DE100 /* Test01.m */,
 				18B134EB1D30B46200414338 /* Main.storyboard */,
 				18B134F11D30B46200414338 /* Assets.xcassets */,
 				18B134F31D30B46200414338 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B134EA1D30B46200414338 /* ViewController.m in Sources */,
+				18434CF620D8FD26003DE100 /* Test01.m in Sources */,
 				18B134F01D30B46200414338 /* testG.xcdatamodeld in Sources */,
 				18B134E71D30B46200414338 /* AppDelegate.m in Sources */,
 				18B134E41D30B46200414338 /* main.m in Sources */,
@@ -500,6 +506,7 @@
 				18B135111D30B46200414338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B135121D30B46200414338 /* Build configuration list for PBXNativeTarget "testGTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				18B135141D30B46200414338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B135151D30B46200414338 /* Build configuration list for PBXNativeTarget "testGUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				18B135171D30B46200414338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
